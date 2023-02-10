@@ -14,7 +14,7 @@ Prerequisites
 Setup
 ------------
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/)
-2. Clone or download a zip of this repo
+2. Download a [zip of this repo](https://github.com/EricCarrGH/fastbasic-starterproject/archive/refs/heads/main.zip)
 3. Edit the build script to point to the *FastBasic Compiler* and the *Emulator*
     - Mac:
         1. Open **build** and change the path to your downloaded copy of the fastbasic compiler
