@@ -1,7 +1,7 @@
 FastBasic VSCode Starter Project
 ========================
 
-A sample project for *Visual Studio Code* with a custom build task to *FastBasic Cross Compile* and run the .xex in Altirra (Windows) or Atari800MacX (Mac)
+A sample project for **Visual Studio Code** with a custom build task that will compile using **FastBasic** and run your Atari emulator
 
 
 Prerequisites
@@ -9,13 +9,14 @@ Prerequisites
  - Install a Atari Emulator
     -  Mac: [Atari800MacX](https://www.atarimac.com/atari800macx.php) 
     -  Windows: [Altirra](https://www.virtualdub.org/altirra.html) 
- - Download the latest [Fastbasic Release](https://github.com/dmsc/fastbasic/releases/)
+ - Download the latest [FastBasic Release](https://github.com/dmsc/fastbasic/releases/)
     
 Setup
 ------------
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/)
 2. Download a [zip of this repo](https://github.com/EricCarrGH/fastbasic-starterproject/archive/refs/heads/main.zip)
-3. Edit the build script to point to the *FastBasic Compiler* and the *Emulator*
+3. Edit build script paths:
+
     - Mac:
         1. Open **build** and change the path to your downloaded copy of the fastbasic compiler
         2. Open terminal, go to the project folder, and type the following to make **build** executable:
@@ -23,8 +24,9 @@ Setup
             `chmod +x build`
     
     - Windows:
-        1. Open **build.bat** and change the path to your downloaded copy of the fastbasic compiler
-        2. Also change the path to the emulator
+        1. Open **build.bat**
+            1. Change the path to your fastbasic compiler
+            2. Change the path to your emulator
  
 Now you are ready to build the example file
 
