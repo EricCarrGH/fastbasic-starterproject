@@ -1,7 +1,7 @@
 FastBasic VSCode Starter Project
 ========================
 
-A sample project for **Visual Studio Code** with a custom build task that will compile using **FastBasic** and run your Atari emulator
+A sample **Basic** project for **Visual Studio Code** with a custom build task that will compile using **FastBasic** and run your Atari emulator
 
 
 Prerequisites
