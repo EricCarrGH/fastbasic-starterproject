@@ -1,0 +1,16 @@
+mkdir -p bin
+cd bin
+rm -f *.*
+cp $1 .
+filename=$(basename -- "$1")
+filename="${filename%.*}"
+
+# Compile (TODO: CHANGE PATH TO FASTBASIC COMPILER)
+~/Downloads/fastbasic-v4.6-macosx/fastbasic ./$filename.bas
+
+# If compile was successful, restart emulator with file
+if [[ -f $filename.xex ]]
+then
+osascript -e 'quit app "Atari800MacX"'
+open -n -a Atari800macx --args $(pwd)/$filename.xex
+fi
