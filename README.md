@@ -1,7 +1,7 @@
 FastBasic VSCode Starter Project
 ========================
 
-A sample Atari FastBasic project for Visual Studio Code with a custom build task that compiles and runs the xex in an Atari emulator. I put this together after wanting a quick way to write and test code on Atari emulators. The build task works on both Mac and Windows.  
+A sample Atari FastBasic project for Visual Studio Code with a custom build task that runs the FastBasic cross-compiler to compile, then runs the xex in an Atari emulator. I put this together after wanting a quick way to write and test code on emulators. The build task works on both Mac and Windows.  
 
 When you run the build task, it will compile, then, assuming no compile errors, start the xex on an Atari emulator (restarting any previously running emulator).
 
