@@ -11,7 +11,7 @@ Prerequisites
  - Install a supported Atari Emulator
     -  Mac: [Atari800MacX](https://www.atarimac.com/atari800macx.php) 
     -  Windows: [Altirra](https://www.virtualdub.org/altirra.html) 
- - Download the latest [FastBasic Release](https://github.com/dmsc/fastbasic/releases/). If running the fastbasic compiler gives you an error (like it did me), you can try downloading the version I compiled formyself [here](https://github.com/EricCarrGH/fastbasic-starterproject/releases/tag/fastbasic-v4.6-macos-x86)
+ - Download the latest [FastBasic Release](https://github.com/dmsc/fastbasic/releases/). If running the fastbasic compiler gives you an error (like it did me), you can try downloading the version I compiled for myself [here](https://github.com/EricCarrGH/fastbasic-starterproject/releases/tag/fastbasic-v4.6-macos-x86)
     
 Setup
 ------------
