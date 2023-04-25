@@ -16,12 +16,12 @@ Prerequisites
     - Mac: [Download INTERIM build here](https://github.com/dmsc/fastbasic/files/11000997/fastbasic-v4.6-31-g5004ef1-dirty-macosx.zip)
         1. **PLEASE NOTE:** The current version (v4.6) does not work properly on macs, but dmsc (the author of FastBasic) has created an interim build that has been tested on multiple Macs and that I personally have found to work.
         2. The first time you compile, the Mac will complain that the compiler file(s) are not signed.
-        3. After you see the error, you have to go into Mac settings and allow running of the executable. Then, compile again and repeat 3-4 times (for each compiler executable - there are multiple) until compiling finsihes without issue. You only have to do this "trust the files" step once.
+        3. After you see the error, you have to go into Mac settings and allow running of the executable. Then, compile again and repeat 3-4 times (for each compiler executable - there are multiple) until compiling finishes without issue. You only have to do this "trust the files" step once.
     
 Setup
 ------------
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/)
-2. Download a [zip of this repo](https://github.com/EricCarrGH/fastbasic-starterproject/archive/refs/heads/main.zip)
+2. Clone or [download](https://github.com/EricCarrGH/fastbasic-starterproject/archive/refs/heads/main.zip) this starter project.
 3. Edit build script paths:
     
     - Windows:
