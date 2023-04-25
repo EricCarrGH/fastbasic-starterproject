@@ -11,7 +11,11 @@ Prerequisites
  - Install a supported Atari Emulator
     -  Mac: [Atari800MacX](https://www.atarimac.com/atari800macx.php) 
     -  Windows: [Altirra](https://www.virtualdub.org/altirra.html) 
- - Download the latest [FastBasic Release](https://github.com/dmsc/fastbasic/releases/). If running the fastbasic compiler gives you an error (like it did me), you can try downloading the version I compiled for myself [here](https://github.com/EricCarrGH/fastbasic-starterproject/releases/tag/fastbasic-v4.6-macos-x86)
+ - Download the latest FastBasic Release
+    - Windows: Download here: [FastBasic Release](https://github.com/dmsc/fastbasic/releases/).
+    - Mac: The current version (v4.6) does not work properly on macs, but the author of FastBasic has created an interim build [here](https://github.com/dmsc/fastbasic/files/11000997/fastbasic-v4.6-31-g5004ef1-dirty-macosx.zip) that has been tested on multiple Macs and that I have found to work.
+        1. The first time you compile, the Mac will complain that the compiler file is not signed.
+        2. After you see the error, you have to go into Mac settings and allow running of the executable. Then, compile again and repeat 3-4 times until compiling finsihes without issue. You only have to do this "trust the files" step once.
     
 Setup
 ------------
